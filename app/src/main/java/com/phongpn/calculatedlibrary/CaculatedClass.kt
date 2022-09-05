@@ -1,5 +1,9 @@
 package com.phongpn.calculatedlibrary
 
 fun add(param1: Int, param2: Int): Int {
-    return param1 + param2
+    return param1 + param2 + 3
+}
+
+fun multiply(param1: Int, param2: Int): Int {
+    return param1 * param2
 }
